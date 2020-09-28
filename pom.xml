@@ -20,7 +20,8 @@
                 <version>3.0.0-M3</version>
                 <configuration>
                     <argLine>
-                        -javaagent:${settings.localRepository}/org/aspectj/aspectjweaver/1.9.1/aspectjweaver-1.9.1.jar -Xmx256m
+                        -javaagent:${settings.localRepository}/org/aspectj/aspectjweaver/1.9.1/aspectjweaver-1.9.1.jar
+                        -Xmx256m
                     </argLine>
                 </configuration>
                 <dependencies>
@@ -85,4 +86,6 @@
         </dependency>
 
     </dependencies>
+
 </project>
+<!--123142-->
